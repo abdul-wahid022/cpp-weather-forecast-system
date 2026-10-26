@@ -56,9 +56,9 @@ Captured on Ubuntu while the program was running.
 
 | | |
 | --- | --- |
-| <img src="./screenshots/weather-multan.png" alt="Weather by city, Multan" width="420"/> | <img src="./screenshots/weather-lahore.png" alt="Weather by city, Lahore" width="420"/> |
+| <img src="./images/weather-multan.png" alt="Weather by city, Multan" width="420"/> | <img src="./images/weather-lahore.png" alt="Weather by city, Lahore" width="420"/> |
 | <sub>Option 1: weather by city (Multan)</sub> | <sub>Option 1: weather by city (Lahore)</sub> |
-| <img src="./screenshots/search-by-condition.png" alt="Search by weather condition" width="420"/> | <img src="./screenshots/search-by-temperature.png" alt="Search by temperature" width="420"/> |
+| <img src="./images/search-by-condition.png" alt="Search by weather condition" width="420"/> | <img src="./images/search-by-temperature.png" alt="Search by temperature" width="420"/> |
 | <sub>Option 2: search by weather condition</sub> | <sub>Option 3: search by temperature</sub> |
 
 ## Tech Stack
