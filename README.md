@@ -16,8 +16,8 @@
 <p align="center">
   <a href="#overview"><b>Overview</b></a> ·
   <a href="#features"><b>Features</b></a> ·
+  <a href="#screenshots"><b>Screenshots</b></a> ·
   <a href="#tech-stack"><b>Tech Stack</b></a> ·
-  <a href="#interface-preview"><b>Interface</b></a> ·
   <a href="#build--run"><b>Build</b></a> ·
   <a href="#repository-structure"><b>Structure</b></a>
 </p>
@@ -42,13 +42,24 @@ Sky Cast is a console weather application written in C++. It fetches live data f
 | Menu | Feature | Description |
 | ---- | ------- | ----------- |
 | 1 | Weather by city | Current temperature, humidity and conditions for a city |
-| 2 | Search by condition | Find cities with a given condition such as rain or clouds |
-| 3 | Search by temperature | Find cities near a given temperature (within 1°C) |
+| 2 | Search by condition | List cities with a given condition such as clear, rain or clouds |
+| 3 | Search by temperature | List cities within 1°C of a target temperature |
 | 4 | 5-day forecast | Forecast for the next five days |
 | 5 | Weather history | View past records stored in files |
 | 6 | Alerts and precautions | Weather alerts and emergency preparation guidelines |
 | 7 | Learn about weather | Weather types, terminology and facts |
 | 8 | Exit | Close the program |
+
+## Screenshots
+
+Captured on Ubuntu while the program was running.
+
+| | |
+| --- | --- |
+| <img src="./screenshots/weather-multan.png" alt="Weather by city, Multan" width="420"/> | <img src="./screenshots/weather-lahore.png" alt="Weather by city, Lahore" width="420"/> |
+| <sub>Option 1: weather by city (Multan)</sub> | <sub>Option 1: weather by city (Lahore)</sub> |
+| <img src="./screenshots/search-by-condition.png" alt="Search by weather condition" width="420"/> | <img src="./screenshots/search-by-temperature.png" alt="Search by temperature" width="420"/> |
+| <sub>Option 2: search by weather condition</sub> | <sub>Option 3: search by temperature</sub> |
 
 ## Tech Stack
 
@@ -59,24 +70,6 @@ Sky Cast is a console weather application written in C++. It fetches live data f
 | HTTP requests | libcurl |
 | JSON parsing | RapidJSON |
 | File handling | C++ `fstream` |
-
-## Interface Preview
-
-```
-============================================================
-                 S K Y   C A S T
-------------------------------------------------------------
-        - Real-time Weather and Temperature Updates
-============================================================
-            [1] Check Weather by City Name
-            [2] Search by Weather Condition
-            [3] Search by Temperature
-            [4] 5-Day Weather Forecast
-            [5] Weather History
-            [6] Alerts & Precautions
-            [7] Learn About Weather Types
-            [8] Exit
-```
 
 ## Build & Run
 
@@ -106,6 +99,7 @@ cpp-weather-forecast-system/
 ├── README.md
 ├── Sky Cast/                 # source code
 │   └── Q1.cpp
+├── screenshots/              # program screenshots
 └── images/                   # banner
 ```
 
